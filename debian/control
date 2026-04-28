@@ -1,0 +1,16 @@
+Source: php-psr-clock
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends: debhelper-compat (= 13), jq
+Standards-Version: 4.6.2
+Homepage: https://github.com/php-fig/clock
+Vcs-Git: https://github.com/Vitexus/php-psr-clock.git
+Rules-Requires-Root: no
+
+Package: php-psr-clock
+Architecture: all
+Depends: ${misc:Depends}, php-cli | php, composer
+Description: Common interface for reading the clock (PHP FIG PSR-20)
+ This package holds the interface for PSR-20 (Clock Interface),
+ providing a standard way to read the current time.
