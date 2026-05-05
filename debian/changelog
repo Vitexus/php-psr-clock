@@ -1,4 +1,4 @@
-php-psr-clock (1.0.0-1~trixie) trixie; urgency=low
+php-psr-clock (1.0.0) trixie; urgency=low
 
   * Initial Debian packaging
 
